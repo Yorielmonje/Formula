@@ -1,6 +1,6 @@
 .textbox{
-    border: 5px solid rgb(255, 0, 0);
-    background: black;
+    border: 5px solid rgb(56, 24, 116);
+    background: rgb(6, 2, 243);
     margin-right: 10px;
     margin-left: 5px;
     padding:20px;
@@ -9,19 +9,18 @@
     color: azure;
 }
 .boton{
-    border: 5px solid rgb(255, 0, 0);
-    background: black;
-    color: rgb(238, 255, 0);
-    padding: 5px 20px;
-    margin-right: 10px;
+    border: 5px solid rgb(56, 24, 116);
+    background: rgb(6, 2, 243);
+    color: azure;
     font-size: 20px;
+    margin-top: 75px;
+    
 }
 .boton:active{
     border: 5px solid rgb(255, 0, 0);
     background: rgb(0, 48, 179);
     color: rgb(255, 255, 255);
-    padding: 10px 40px;
-    margin-right: 10px;
+    
 }
 .letrica{
     font-size: 20px;
@@ -31,4 +30,6 @@
 }
 .result{
     font-size: 50px;
+    margin-left: 20px;
+    margin-top: 60px;;
 }

@@ -10,12 +10,11 @@ export class UiComponent implements OnInit{
   ngOnInit():void{}
 
   value1=0;
-  value2=0;
   resultado=0;
   calcular(){
     let res =0;
     let form:formula=new formula();
-    res=form.calcular(this.value1, this.value2);
+    res=form.calcular(this.value1);
     this.resultado=res;
   }
 }
