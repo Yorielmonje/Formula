@@ -9,10 +9,13 @@
 <body>
     <div class="alao">
         <section>
-        <p class="letrica">Fuerza </p><input type="number" class="textbox" name="value1" placeholder="Velocidad" id="value1" [(ngModel)]="value1" >
+        <p class="letrica">Fahrenheit </p><input type="number" class="textbox" name="value1" placeholder="0" id="value1" [(ngModel)]="value1" >
         </section>
+        <section>
         <button class="boton"(click)="calcular()">Calcular</button>
-        <p class="result">Masa: {{resultado}}</p>
+        </section>
+        <p class="result">Celsius: {{resultado}}</p>
+    
     </div>
     
 </body>
